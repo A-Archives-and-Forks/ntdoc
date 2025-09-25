@@ -14,8 +14,8 @@ def main():
     parser.add_argument("-p", "--path", help="phnt include path", required=True)
     parser.add_argument("-c", "--commit", help="phnt commit")
     parser.add_argument(
-        "-m",
-        "--msdn-docs-path",
+        "-w",
+        "--windows-docs-path",
         help=(
             "path to the output files of https://github.com/m417z/windows-docs-scraper"
         ),
